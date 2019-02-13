@@ -1,0 +1,266 @@
+#MainContainer {
+    
+    background-color:#733D56;  
+    
+
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    text-align: center;
+    background-color:#733D56;
+    word-spacing: 15px;
+    letter-spacing: 6px;
+    
+}
+.name .caption{
+    display:flex;
+    flex-wrap:wrap;
+    
+    text-align: center;
+    padding-left:290px;
+
+}
+
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    letter-spacing: 10px;
+}
+.list{ 
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-type:none;
+    font-size:30px; 
+    display:flex;
+    flex-flow:wrap;
+    justify-content: space-evenly;
+    letter-spacing: 2px;  
+}
+
+.list2{
+    list-style-type: none;
+    color:white;
+    justify-content: space-evenly;
+    letter-spacing: 2px;   
+}
+
+
+.content{
+    background-color: #3B2F40;
+}
+
+.Upper_heading{
+    text-align: center;
+}
+
+.box1{
+    display:flex;
+    flex-flow:wrap;
+    flex-direction: column;
+    background-color: #3B2F40;   
+}
+.box2{
+    display:flex;
+    flex-flow:wrap;
+    justify-content: space-around;
+    background-color: #3B2F40;
+}
+.left{
+    display:flex;
+    flex-flow:wrap;
+    width:450px;
+    background-color:#120F26;
+    padding-left:50px;
+    
+}
+.right{
+    display:flex;
+    flex-wrap:wrap;
+    width:450px;
+    background-color:#120F26;
+    padding-left:50px;
+}
+ .footer{
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+ }
+
+ .social{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:360px;
+ }
+
+.paralax{
+    /* The image used */
+    background-image: url("./Assets/207B3988-48C4-42A3-9D26-D784962EBF64.jpg");
+  
+    /* Set a specific height */
+   min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+/*@media screen and (max-width:800px)  {
+  #header{
+     
+   margin-left: -10px;
+    
+ }
+ .namegraphic{
+    width:500px;
+    margin-left:-210px;
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 200px;
+    text-align: center;
+    margin-top: 95px;
+    width:auto;
+}
+#content1{
+    display:flex;
+    justify-content:space-evenly;
+
+
+
+}
+#box1{
+    width: 200px;
+    text-align: center;
+    border: 10px solid black;
+    
+    
+}
+#box2{
+    width:400px;
+    text-align: center;
+    border: 10px solid black;
+    
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:1299px) {
+#header{
+
+margin-left:200px;
+    width: 100%;
+    
+
+}
+#ME{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    }
+.namegraphic{
+    width:270px;
+padding-left:250px;
+padding-top:60px;
+       }
+       
+h1{
+    margin-left:  -180px;
+   }
+#content1{
+    display:flex;
+    flex-direction:column-reverse;
+    position:relative;
+    right:8px;
+    }
+#box1{
+    position:relative;
+    left:-2px;
+    text-align: center;
+    width:100%;
+   }
+#box2{
+    position:relative;
+    left:-2px;
+    text-align: center;
+    width:100%;
+   }
+   
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+ul {
+    list-style: none;
+   }
+   }
+   
+@media screen and (min-width:200px) and (max-width:599px) {
+    
+#MainContainer {
+    width:100%;
+            }
+#header{
+    display:flex;  
+    flex-direction:column-reverse;
+    border-bottom:1px solid black; 
+    margin-left: 24px;
+    background-image: url("Assets/waldemar-brandt-1284414-unsplash.gif");
+    width:80%;
+    height:400px;
+   
+                }
+.namegraphic{
+    width:100%;
+    margin-left:-28px;
+
+}
+.mainpic {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 25%;
+    width: 60%;
+}
+#ME{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+       
+       
+   }
+h1{
+    margin-left:  -180px;
+   }
+#content1{
+    display:flex;
+    flex-direction:column-reverse;
+    position: relative;
+    flex-grow: inherit;
+    left:10px;
+    width:100%;
+   
+   }
+#box1{
+    width: auto;
+    text-align: center;
+    position: relative;
+    left:-8px;
+       
+   }
+   #box2{
+    width:auto;
+    text-align: center;
+    position: relative;
+    left:-8px;
+       
+   }
+   
+
+   } */
+   
+   
